@@ -11,8 +11,12 @@
 ```
 $ git clone https://github.com/MrHacker26/ResumeBuilder
 $ cd ResumeBuilder
+$ npm install
 $ npm start
 ```
+
+#### For live demo
+[Link](https://tarun-resume-builder.herokuapp.com/)
 
 # Screenshots
 ![screencapture-tarun-resume-builder-herokuapp-login-2022-06-26-13_59_21](https://user-images.githubusercontent.com/47981325/175806213-a64cefed-d610-4f38-be43-9cef048870d3.png)
@@ -31,8 +35,7 @@ $ npm start
 
 
 
-#### For live demo
-[Link](https://tarun-resume-builder.herokuapp.com/)
+
 
 
 ### If you found this project helpful, 
