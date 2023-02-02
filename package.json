@@ -2,7 +2,7 @@
   "name": "resumebuilder",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "client-install": "npm install --prefix client",
     "server": "nodemon server.js",
