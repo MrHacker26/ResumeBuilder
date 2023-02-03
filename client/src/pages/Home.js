@@ -29,7 +29,7 @@ function Home() {
                   alt=""
                   style={{ width: "100%" }}
                 />
-                <div className="text">
+                <div className="text" key={index}>
                   <p>{template.title}</p>
                   <button onClick={() => navigate(`/templates/${index + 1}`)}>
                     TRY

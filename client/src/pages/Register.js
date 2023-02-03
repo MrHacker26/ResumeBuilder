@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Form, Input, Button, Checkbox, message, Spin } from "antd";
+import { Form, Input, Button, message, Spin } from "antd";
 import "../resources/authentication.css";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -11,8 +11,8 @@ function Register() {
     setLoading(true);
     try {
       if (values.password === values.cpassword) {
-        const ucheck = await axios.post("api/user/register", values);
-        if (ucheck.data == "uexists") {
+        const ucheck = await axios.post(`${process.env.REACT_APP_BACKEND_URL}api/user/register`, values);
+        if (ucheck.data === "uexists") {
           setLoading(false);
           message.error("User already exist!");
         } else {

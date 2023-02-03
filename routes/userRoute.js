@@ -1,7 +1,8 @@
 const express = require("express");
+const cors = require('cors');
 const User = require("../models/userModel");
 const app = express.Router();
-
+app.use(cors())
 app.post("/login", async (req, res) => {
   try {
     const result = await User.findOne({

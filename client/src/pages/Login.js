@@ -9,7 +9,7 @@ function Register() {
   const onFinish = async (values) => {
     setLoading(true)
     try {
-      const user = await axios.post("api/user/login", values);
+      const user = await axios.post(`${process.env.REACT_APP_BACKEND_URL}api/user/login`, values);
       message.success("Login successful");
       localStorage.setItem("resume", JSON.stringify(user.data));
       setLoading(false)
