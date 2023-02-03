@@ -16,7 +16,7 @@ $ npm start
 ```
 
 #### For live demo
-[Link](https://tarun-resume-builder.herokuapp.com/)
+[Link](https://resume-builder-tarun.vercel.app/)
 
 # Screenshots
 ![screencapture-tarun-resume-builder-herokuapp-login-2022-06-26-13_59_21](https://user-images.githubusercontent.com/47981325/175806213-a64cefed-d610-4f38-be43-9cef048870d3.png)
